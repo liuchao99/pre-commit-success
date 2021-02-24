@@ -7,6 +7,7 @@ import './app.scss';
 const sc = scopedClasses('app');
 const App = () => {
   const [isModalVisible, setIsModalVisible] = useState(false);
+  const [iisModalVisible, setIIsModalVisible] = useState(false);
 
   const showModal = () => {
     setIsModalVisible(true);
