@@ -18,6 +18,7 @@ const App = () => {
 
   useEffect(() => {
     console.log(isModalVisible);
+    console.log('wwwww');
   }, [isModalVisible]);
   const handleCancel = () => {
     setIsModalVisible(false);
