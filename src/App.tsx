@@ -7,7 +7,6 @@ import './app.scss';
 const sc = scopedClasses('app');
 const App = () => {
   const [isModalVisible, setIsModalVisible] = useState(false);
-  const [iisModalVisible, setIIsModalVisible] = useState(false);
 
   const showModal = () => {
     setIsModalVisible(true);
@@ -17,10 +16,7 @@ const App = () => {
     setIsModalVisible(false);
   };
 
-  useEffect(() => {
-    console.log(isModalVisible);
-    console.log('wwwww');
-  }, [isModalVisible]);
+  useEffect(() => {}, [isModalVisible]);
   const handleCancel = () => {
     setIsModalVisible(false);
   };

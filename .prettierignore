@@ -6,3 +6,4 @@ build
 **/*.ejs
 **/*.html
 package.json
+src
